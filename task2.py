@@ -12,7 +12,7 @@ import random
 
 size = int(input("Задайте размер грядки: "))
 if size < 3:
-  print('Размер массива не должен быть менее 3')
+  print('Размер грядки не должен быть менее 3')
 elif size == 3:
   berry_bushes =[random.randint(0, 10) for i in range(size)]
   print(berry_bushes)
